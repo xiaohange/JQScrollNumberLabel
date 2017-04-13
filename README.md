@@ -1,5 +1,5 @@
 # JQScrollNumberLabel
----
+
 ## 简介：
 
 JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能够有滚动的动画，同时动画和位数可以限制，动态创建和实例化可选，字体样式自定义 
@@ -9,12 +9,12 @@ JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能
 
 ![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/1.gif?raw=true)
 
--
+
 #### 动态创建位数：
 
 ![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/2.gif?raw=true)
 
--
+
 #### 仿Tumblr中的滚动热度：
 
 ![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/3.gif?raw=true)
@@ -64,5 +64,5 @@ JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能
 ## 咨询
 >iOS开发者交流群：446310206
 
----
+
 
