@@ -8,7 +8,7 @@
 
 #import "JQScrollNumberLabel.h"
 
-//attribute key
+// Attribute Key
 #define keyRepeatCount              @"repeatCount"
 #define keyStartDuration            @"startDuration"
 #define keyCycleDuration            @"cycleDuration"
@@ -17,7 +17,7 @@
 #define keyDisplayNumber            @"displayNumber"
 #define keyStartDelay               @"startDelay"
 
-//task key
+// Task Key
 #define keyTaskDisplayNumber        @"displayNumber"
 #define keyTaskChangeNumber         @"changeNumber"
 #define keyTaskInterval             @"interval"
@@ -465,7 +465,8 @@ static const CGFloat bufferModulus = 0.7f;
     NSInteger tmp1 = displayNumber / (NSInteger)pow(10, count - 1);
     NSInteger tmp2 = number / (NSInteger)pow(10, count - 1);
     
-//    NSLog(@"tmp1:%ld tmp2:%ld", (long)tmp1, (long)tmp2);
+//    NSLog(@"tmp1:%ld tmp2:%ld", (long)tmp1, (long)tmp2); // Test
+    
     NSInteger maxChangeNum = labs(tmp1 % 10 - tmp2 % 10);
     
     return normalModulus * count * maxChangeNum;

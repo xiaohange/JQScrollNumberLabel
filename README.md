@@ -1,8 +1,29 @@
 # JQScrollNumberLabel
+---
+## 简介：
+
 JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能够有滚动的动画，同时动画和位数可以限制，动态创建和实例化可选，字体样式自定义 
+
+## 效果展示
+#### 限制位数：
+
+![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/1.gif?raw=true)
+
+-
+#### 动态创建位数：
+
+![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/2.gif?raw=true)
+
+-
+#### 仿Tumblr中的滚动热度：
+
+![](https://github.com/xiaohange/JQScrollNumberLabel/blob/master/3.gif?raw=true)
+
+## How to use?
 
 将JQScrollNumberLabel文件夹中的两个文件复制进工程，在需要使用的地方导入头文件
 
+```
 #import "JQScrollNumberLabel.h"
 
 @interface ViewController ()
@@ -10,9 +31,11 @@ JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能
 @property (nonatomic, strong)JQScrollNumberLabel *scrollLabel;
 
 @end
+```
 
-初始化的方法传人字体大小或是一个字体，不要设置其frame，只需改变其位置即可，因为它是根据字体大小自动计算自身的大小
+初始化的方法传人字体大小或是一个字体，不要设置其frame，只需改变其位置即可，因为它是根据字体大小自动计算自身的大小，若想动态设置位数不要带rowNumber参数即可：
 
+```
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -26,13 +49,20 @@ JQScrollNumberLabel 一个显示数字的控件，当你改变其数字时，能
     
 }
 @end
+```
 
 当想要改变其数值时，调用下面方法即可,当animated参数为NO时不会播放动画
-
+```
 [self.scrollLabel changeToNumber:@(10) animated:YES];
+```
+## 问题
 
-问题
+* 1.目前还不支持负数的显示
 
-1.目前还不支持负数的显示
-2.显示的位数有限制，最大8位
+* 2.显示的位数有限制，最大8位
+
+## 咨询
+>iOS开发者交流群：446310206
+
+---
 
