@@ -4,6 +4,8 @@
 
 JQScrollNumberLabel 仿tumblr热度滚动数字条数，一个显示数字的控件，当你改变其数字时，能够有滚动的动画，同时动画和位数可以限制，动态创建和实例化可选，字体样式自定义等等。
 
+本控件核心采用了好友代培的核心代码,更多样式请看: https://github.com/948080952/DPScrollNumberLabel
+
 JQScrollNumberLabel imitation Tumblr heat rolling digital number, a digital display controls, when you change the numbers, to scroll animation and animation and number restrictions, dynamically create and instantiate the optional custom font style, etc..
 
 ## 效果展示
